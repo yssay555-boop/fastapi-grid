@@ -1,0 +1,75 @@
+# =========================
+# Python / FastAPI
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python build / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Test / coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.mypy_cache/
+.pyre/
+.ruff_cache/
+
+# Logs
+*.log
+
+# =========================
+# IDE / Editor
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# OS
+# =========================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Windows installer/cache
+*.msi
+*.cab
+*.lnk
+
+# =========================
+# Local env / secrets
+# =========================
+.env
+.env.*
+*.pem
+*.key
+*.crt
+
+# =========================
+# Project-specific (optional)
+# =========================
+# If you create a local sqlite later:
+*.sqlite3
+*.db
+
+# If you generate local uploads or temp files:
+uploads/
+tmp/
+temp/
